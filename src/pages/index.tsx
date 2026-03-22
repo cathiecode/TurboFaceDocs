@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            はじめる
           </Link>
         </div>
       </div>
@@ -37,7 +37,8 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* NOTE: For future use */}
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

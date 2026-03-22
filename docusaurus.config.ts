@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'TurboFace',
   tagline: 'TurboFace: A simple facial animation creation tool for VRChat',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/cathiecode/TurboFace',
+            'https://github.com/cathiecode/TurboFaceDocs/blob/master',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,10 +60,10 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'TurboFace',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'TurboFace Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -92,7 +92,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Author',
           items: [
             {
               label: 'X',
