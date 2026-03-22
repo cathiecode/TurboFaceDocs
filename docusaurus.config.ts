@@ -63,8 +63,7 @@ const config: Config = {
       title: 'TurboFace',
       logo: {
         alt: 'TurboFace Logo',
-        src: 'img/logo.png',
-        className: "custom-navbar-logo",
+        src: 'img/logo.png'
       },
       items: [
         {
