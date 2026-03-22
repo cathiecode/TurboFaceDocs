@@ -64,13 +64,14 @@ const config: Config = {
       logo: {
         alt: 'TurboFace Logo',
         src: 'img/logo.png',
+        className: "custom-navbar-logo",
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'チュートリアル',
         },
         {
           href: 'https://github.com/cathiecode/TurboFace',
@@ -86,7 +87,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'チュートリアル',
               to: '/docs/intro',
             },
           ],
